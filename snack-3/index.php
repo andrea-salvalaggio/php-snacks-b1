@@ -15,18 +15,18 @@
         <i>Creare un array con 15 numeri casuali, tenendo conto che l'array non dovrà contenere lo stesso numero più di una volta</i>
         <hr>
 
-        <?php 
+        <?php
             $numbers = [];
-        ?>
 
-        <?php while (count($numbers) < 15) { ?>
-            <h4>
-                <?php
-                    $numbers[] = rand(1, 30);
-                    var_dump($numbers);
-                ?>
-            </h4>
-        <?php } ?>
+            while (count($numbers) < 15) {
+                $randomNumber = rand(1, 50);
+                if (!in_array($randomNumber, $numbers)){
+                    $numbers[] = $randomNumber;
+                }
+            }
+
+            var_dump($numbers);
+        ?>
         
 
     </section>
