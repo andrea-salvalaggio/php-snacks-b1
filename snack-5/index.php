@@ -21,10 +21,58 @@
         <?php 
             $classes = [
                 [
-                    "first_name" => "LA Lakers",
-                    "last_name" => "GS Warrios",
+                    "first_name" => "Lucio",
+                    "last_name" => "Dalla",
+                    "votes" => [
+                        "italiano" => 8,
+                        "matematica" => 6,
+                        "storia" => 7,
+                        "geografia" => 6,
+                    ]
+                ],
+                [
+                    "first_name" => "Tiziano",
+                    "last_name" => "Ferro",
+                    "votes" => [
+                        "italiano" => 9,
+                        "matematica" => 5,
+                        "storia" => 6,
+                        "geografia" => 7,
+                    ]
+                ],
+                [
+                    "first_name" => "Renato",
+                    "last_name" => "Zero",
+                    "votes" => [
+                        "italiano" => 10,
+                        "matematica" => 8,
+                        "storia" => 8,
+                        "geografia" => 9,
+                    ]
+                ],
+                [
+                    "first_name" => "Piero",
+                    "last_name" => "Angela",
+                    "votes" => [
+                        "italiano" => 10,
+                        "matematica" => 10,
+                        "storia" => 10,
+                        "geografia" => 10,
+                    ]
+                ],
+                [
+                    "first_name" => "Giusy",
+                    "last_name" => "Ferrei",
+                    "votes" => [
+                        "italiano" => 6,
+                        "matematica" => 7,
+                        "storia" => 8,
+                        "geografia" => 6,
+                    ]
                 ],
             ];
+
+            var_dump($classes);
         ?>
 
     </section>
